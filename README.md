@@ -4,6 +4,7 @@
 
 
 This is a web application designed to show the project structure for a machine learning model deployed using flask. This project features a machine learning model that has been trained to detect whether the given values determines the cancer to be Benign (Class-2) or Malignant(Class-4). This application acts as an interface for a user to submit attributes for prediction of the type of cancer and not whether the person has breast cancer or not.
+The accuracy obtained is 0.96 after training of the model.
 
 ## Technology Used:
 * Python, Flask, HTML, CSS, Heroku
