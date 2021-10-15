@@ -9,7 +9,7 @@ The accuracy obtained is 0.96 after training of the model.
 ## Technology Used:
 * Python, Flask, HTML, CSS, Heroku
 
-You can find the deployed page at https://cancer-predict-dipti-101803601.herokuapp.com/
+You can find the deployed app at https://cancer-predict-dipti-101803601.herokuapp.com/
 
 ![](IO_Screenshots/1.JPG)
 
