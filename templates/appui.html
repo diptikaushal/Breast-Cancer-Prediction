@@ -10,22 +10,22 @@
 <link rel="stylesheet" href="style2.css">
 <style type="text/css">
   body {
-    background-color: #ffCECE;
+    background-color: #CECEf0;
     color: #696969; }
   </style>
   
 </head>
 
 <body>
- <div class="login">
-    <h1 style= "margin-left:430px; text-decoration: underline;">BREAST CANCER PREDICTION</h1>
-    <h2 style = "margin-left: 410px;">NOTE: This Project is just for educational purpose.</h2>
-    <h2 style = "margin-left: 190px;"> Do not use this web page for a medical diagonosis. 
-        For an actual diagonosis please consult doctor.</h2>
+ <div class="login" text-align: center;>
+    <h1 style= "text-decoration: underline;">BREAST CANCER PREDICTION</h1>
+    <h3>NOTE: This project predicts the type of breast cancer rather than if you have breast cancer or not based on the given attributes. 
+	This project is just for educational purposes. 
+	Please consult a doctor for any kind of diagnosis and do not use this webpage and its results for any kind of medical diagnosis.</h3>
 
      <!-- Main Input For Receiving Query to our ML -->
-    <form action="{{ url_for('predict')}}"method="post" style= "margin-left:540px;">
-    	<input type="text" name="Clump Thickness" placeholder="Clump Thickness" required="required" size="25" />
+    <form action="{{ url_for('predict')}}"method="post">
+      <input type="text" name="Clump Thickness" placeholder="Clump Thickness" required="required" size="25" />
       <br>
       <br>
       <input type="text" name="Uniform Cell Size" placeholder="Uniform Cell Size" required="required" size="25" />
@@ -52,12 +52,13 @@
       <input type="text" name="Mitoses" placeholder="Mitoses" required="required" size="25" />
       <br>
       <br>
-      <button type="submit" class="btn btn-primary btn-block btn-large" style= "padding: 8px 22px;text-align:center;">PREDICT BREAST CANCER</button>
+      <button type="submit" class="btn btn-primary btn-block btn-large" style= "padding: 8px 22px;text-align:center;">PREDICT TYPE OF BREAST CANCER</button>
     </form>
-    <h4 style = "margin-left:460px;"> Class 2:  Indicates Benign And Class 4 : Indicates Malignant  </h4>
-   <h2 style = "margin-left: 570px;">
+    <h4> Class 2:  Indicates Benign And Class 4 : Indicates Malignant  </h4>
+   <h2>
    {{ prediction_text }}
    </h2>
+   <h6> Made By: Dipti Kaushal</h6>
 
    
 
