@@ -17,3 +17,5 @@ You can find the deployed page at https://cancer-predict-dipti-101803601.herokua
 ![](Methodology.jpg)
 
 ## Novelty
+1. KNN algorithm is used for final training of model after obtaining maximum accuracy of 0.96.
+2. Many different factors are considered for prediction of the type of cancer like clump thickness, uniform cell size, uniform cell shape, marginal adhesion, single epithelial size, bare nuclei, bland chromatin, normal nucleoli, mitoses.
