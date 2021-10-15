@@ -1,16 +1,18 @@
-# Breast-Cancer-Web-API
+# Breast Cancer Predicition
 
-## Objective :
-* Create a model that can predict breast cancer with over 90% accuracy
-* Gain my end-to-end experience in machine learning by deploying model using Heroku and other technologies like Python, Flask, HTML, & CSS .
-* Create strong documentation 
+## NOTE: This project predicts the type of breast cancer rather than if you have breast cancer or not based on the given attributes. This project is just for educational purposes. Please consult a doctor for any kind of diagnosis and do not use this webpage and its results for any kind of medical diagnosis.
 
 
-## Data:
-* Source: https://archive.ics.uci.edu/ml/datasets/breast+cancer
+This is a web application designed to show the project structure for a machine learning model deployed using flask. This project features a machine learning model that has been trained to detect whether the given values determines the cancer to be Benign (Class-2) or Malignant(Class-4). This application acts as an interface for a user to submit attributes for prediction of the type of cancer and not whether the person has breast cancer or not.
 
 ## Technology Used:
 * Python, Flask, HTML, CSS, Heroku
 
-## Deployment URL:
-* URL: https://breast-cancerapi.herokuapp.com/
+You can find the deployed page at https://cancer-predict-dipti-101803601.herokuapp.com/
+
+![](IO_Screenshots/1.JPG)
+
+## Methodology
+![](Methodology.jpg)
+
+## Novelty
